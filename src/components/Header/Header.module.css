@@ -30,6 +30,10 @@
   animation: header_animation 0.2s linear;
 }
 
+.hidden {
+  top: -68.2px;
+}
+
 .wrapper {
   padding: 10px 40px;
   width: 100%;

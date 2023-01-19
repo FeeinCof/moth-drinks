@@ -17,7 +17,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: var(--black-color);
+  background-color: #00000060;
+  backdrop-filter: blur(12px);
   bottom: 22px;
   right: 22px;
   box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px;

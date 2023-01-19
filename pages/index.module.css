@@ -5,3 +5,55 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.home_banner {
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  display: flex;
+  justify-content: center;
+  background-image: url(../src/assets/images/Full_Range_Homepage_Hero_Banner_Desktop_Nov_22.jpg);
+  background-size: 120%;
+}
+
+.home_banner_inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 80px 80px 40px 40px;
+}
+
+.home_banner_inner h1 p {
+  font-size: 85px;
+  font-weight: normal;
+  letter-spacing: -0.03em;
+  line-height: 0.8em;
+  margin: 0;
+}
+
+.banner_review {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  bottom: 40px;
+  left: 40px;
+}
+
+.banner_review_head {
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner_review_content {
+  width: 360px;
+  color: #f8f8ef;
+  font-size: 16px;
+}
+
+@media screen and (max-height: 567px) {
+  .home_banner_inner h1 p {
+    font-size: 52px;
+  }
+}

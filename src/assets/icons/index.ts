@@ -16,3 +16,5 @@ export { default as arrow_right } from "./arrow_right.svg";
 export { default as spotify } from "./spotify.svg";
 export { default as linkedin } from "./linkedin.svg";
 export { default as footer_branch } from "./footer_branch.svg";
+export { default as yotpo } from "./yotpo.svg";
+export { default as fivestarts } from "./fivestarts.svg";
