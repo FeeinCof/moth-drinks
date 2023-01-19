@@ -1,5 +1,5 @@
-import DefaultLayout from "@/src/layouts/DefaultLayout/DefaultLayout";
 import { ReactElement } from "react";
+import DefaultLayout from "@/src/layouts/DefaultLayout/DefaultLayout";
 import type { NextPageWithLayout } from "./_app";
 import styles from "./index.module.css";
 
@@ -7,51 +7,7 @@ const Home: NextPageWithLayout = () => {
   return (
     <>
       <main className={styles.main}>
-        a
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div>a</div>
       </main>
     </>
   );

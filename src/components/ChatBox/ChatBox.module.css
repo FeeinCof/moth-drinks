@@ -203,6 +203,14 @@
 }
 
 @media screen and (max-width: 481px) {
+  .chat_button {
+    width: 62px;
+    height: 62px;
+  }
+
+  .chat_button::before {
+    border: unset;
+  }
   .chat_container {
     top: 0;
     right: 0;

@@ -12,3 +12,7 @@ export { default as ins } from "./ins.svg";
 export { default as fb } from "./fb.svg";
 export { default as tiktok } from "./tiktok.svg";
 export { default as logo } from "./logo.svg";
+export { default as arrow_right } from "./arrow_right.svg";
+export { default as spotify } from "./spotify.svg";
+export { default as linkedin } from "./linkedin.svg";
+export { default as footer_branch } from "./footer_branch.svg";

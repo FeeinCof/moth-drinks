@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
-import { AgeGateConfirmationBox, ChatBox, Header } from "@/src/components";
+import {
+  AgeGateConfirmationBox,
+  ChatBox,
+  Header,
+  Footer,
+} from "@/src/components";
 import useStorage from "@/src/hooks/useSessionStorage/useSessionStorage";
 const { getItem, setItem } = useStorage();
+
 interface ReactNode {
   children: React.ReactNode;
 }
@@ -30,7 +36,7 @@ export default function DefaultLayout({ children }: ReactNode) {
       ) : (
         <AgeGateConfirmationBox onClick={ageConfirming} />
       )}
-      {children}
+      <Footer />
     </>
   );
 }

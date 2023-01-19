@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  padding: 5px 35px;
+  margin: 1em;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid var(--white-color);
+  border-radius: 100px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: background 250ms ease-in-out, transform 150ms ease, color 250ms;
+}
+
+.btn:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
