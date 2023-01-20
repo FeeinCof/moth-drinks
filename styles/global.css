@@ -43,3 +43,15 @@ p {
   fill: #fff;
   color: #fff;
 }
+
+.t-30 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 20px 0 40px;
+}
+
+@media screen and (max-width: 1201px) {
+  .t-30 {
+    font-size: 20px;
+  }
+}

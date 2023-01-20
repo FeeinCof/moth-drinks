@@ -18,3 +18,7 @@ export { default as linkedin } from "./linkedin.svg";
 export { default as footer_branch } from "./footer_branch.svg";
 export { default as yotpo } from "./yotpo.svg";
 export { default as fivestarts } from "./fivestarts.svg";
+export { default as glass } from "./glass.svg";
+export { default as truck } from "./truck.svg";
+export { default as earth } from "./earth.svg";
+export { default as wtf } from "./wtf.svg";

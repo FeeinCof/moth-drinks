@@ -30,11 +30,18 @@
   animation: header_animation 0.2s linear;
 }
 
+@media screen and (max-width: 700px) {
+  .fixed {
+    position: unset;
+  }
+}
+
 .hidden {
   top: -68.2px;
 }
 
 .wrapper {
+  z-index: 9999;
   padding: 10px 40px;
   width: 100%;
   height: var(--header-height);

@@ -17,8 +17,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #00000060;
-  backdrop-filter: blur(12px);
+  background-color: #000000;
   bottom: 22px;
   right: 22px;
   box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px;
@@ -86,8 +85,8 @@
 .chat_container_chatspace {
   width: 100%;
   flex: 1;
-  background-color: rgba(192, 192, 192, 0.042);
-  backdrop-filter: blur(10px);
+  background-color: rgba(192, 192, 192, 0.574);
+  backdrop-filter: blur(20px);
 }
 
 .chat_container_inner {
@@ -126,7 +125,7 @@
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(10px);
-  background-color: #ffffff0e;
+  background-color: silver;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -149,6 +148,7 @@
   overflow-y: auto;
   overflow-wrap: break-word;
   resize: none;
+  background-color: transparent;
 }
 
 .input_file {
@@ -222,5 +222,9 @@
   .chat_container_header {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+  }
+  .chat_container_input {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 }

@@ -1,19 +1,43 @@
 .btn {
   cursor: pointer;
-  padding: 5px 35px;
-  margin: 1em;
-  background-color: var(--white-color);
-  color: var(--black-color);
+  position: relative;
+  padding: 10px 20px;
+  background-color: var(--black-color);
+  color: var(--white-color);
   font-size: 16px;
   font-weight: 400;
-  border: 2px solid var(--white-color);
   border-radius: 100px !important;
   -webkit-appearance: none;
   -moz-appearance: none;
   transition: background 250ms ease-in-out, transform 150ms ease, color 250ms;
+  border: 1px solid var(--black-color);
+  overflow: hidden;
 }
 
-.btn:hover {
-  background-color: var(--black-color);
-  color: var(--white-color);
+.btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-color);
+}
+
+.btn::after,
+.text_dark {
+  transform: translateY(100%);
+  transition: 0.2s linear all;
+}
+.text_dark {
+  z-index: 1;
+  position: absolute;
+  color: var(--black-color);
+}
+.btn:hover .text_white {
+  visibility: hidden;
+}
+.btn:hover .text_dark,
+.btn:hover.btn::after {
+  transform: translateY(0);
 }
