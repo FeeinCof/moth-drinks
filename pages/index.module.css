@@ -106,6 +106,7 @@
 }
 
 .title {
+  width: 30%;
   font-size: 40px;
   font-weight: normal;
   margin: 0 0 30px;
@@ -249,6 +250,7 @@
 }
 
 .thepress {
+  flex: 1;
   justify-content: flex-end;
 }
 
@@ -258,11 +260,14 @@
   }
 }
 
-.thepress .content {
-  border-left: 1px solid black;
+.thepress ~ .content {
   padding-left: 20px;
   margin-right: 40px;
   border-left: unset;
+}
+
+.thepress li {
+  border-left: 1px solid #000;
 }
 
 .bg_xmart {
